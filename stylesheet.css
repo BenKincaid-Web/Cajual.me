@@ -46,6 +46,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8b8b8', end
     width: 130px;
     height: 130px;
     margin: -100px 0px 0px 1000px;
+    z-index: 2;
     
 }
 .nav-list {
@@ -64,7 +65,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8b8b8', end
 .nav-list li a {
      text-align: center;
     text-decoration: none;
-    positio
+    color: black;
+}
+
+.navlist:hover {
+    background-color: #5F5F5F;
 }
 .col-2-3 {
     width: 76.66%;
